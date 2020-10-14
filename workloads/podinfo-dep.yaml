@@ -10,6 +10,9 @@ metadata:
     fluxcd.io/automated: "true"
     fluxcd.io/tag.init: regex:^3.10.*
     fluxcd.io/tag.podinfod: glob:3.2.*
+    fluxcd.io/locked_user: Toly Sukhotin <5936466-sukhotin@users.noreply.gitlab.com>
+    fluxcd.io/locked: 'true'
+    fluxcd.io/locked_msg: 3.2.2 does not work for us
 spec:
   strategy:
     rollingUpdate:
